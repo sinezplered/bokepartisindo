@@ -146,6 +146,20 @@ export default async function Video({ params }: PageProps) {
         />
         {/* ... */}
         </section>
+            <iframe
+                className="w-full h-[90vh] md:h-[90vh] lg:h-[90vh]"
+                src={`https://doodstream.com/e/${file.filecode}`}
+                scrolling="no"
+                title={file.title}
+                frameBorder={0}
+                allowFullScreen={true}
+            ></iframe>
+            <Card className="mx-2 mb-8">
+                <CardHeader>
+                    <CardTitle className="text-xl md:text-3xl font-bold">
+                        {file.title}
+                    </CardTitle>
+                </CardHeader>
 <center><Script dangerouslySetInnerHTML={{__html: `(adsbyjuicy = window.adsbyjuicy || []).push({'adzone':1078976})`,}}/>
 <Script data-cfasync="false" async src="https://poweredby.jads.co/js/jads.js"/>
 <ins id="1078976" data-width="300" data-height="112"></ins></center>
