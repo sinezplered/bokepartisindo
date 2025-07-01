@@ -1,2 +1,1 @@
-# bokepartisindo
-bokepartisindo
+# [bokepartisindo](https://bokepartisindo.pages.dev)
